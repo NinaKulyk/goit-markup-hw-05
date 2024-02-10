@@ -806,7 +806,6 @@ img {
 }
 
 .check-text span {
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 16px;
