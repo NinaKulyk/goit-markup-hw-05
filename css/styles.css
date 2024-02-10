@@ -596,11 +596,6 @@ img {
 }
 
 .footer-input::placeholder {
-  color: #fff;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 2; /* 200% */
-  letter-spacing: 0.04em;
 }
 
 .footer-sbmt-btn {
@@ -795,11 +790,6 @@ img {
 }
 
 .user-text-area::placeholder {
-  color: rgba(46, 47, 66, 0.4);
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.04em;
 }
 
 .check-text {
