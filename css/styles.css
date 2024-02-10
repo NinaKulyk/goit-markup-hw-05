@@ -588,6 +588,11 @@ img {
   background: transparent;
   padding-left: 16px;
   outline: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.04em;
 }
 
 .footer-input::placeholder {
@@ -615,11 +620,14 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
-  gap: 16px;
+  min-width: 165px;
+  justify-content: center;
+  align-items: center;
 }
 
 .subscribe-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
 
 .footer-sbmt-btn:hover,
@@ -743,8 +751,9 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   padding-left: 38px;
   outline: transparent;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-input:hover,
 .modal-input:focus {
   border-color: #4d5ae5;
@@ -774,6 +783,7 @@ img {
   border-radius: 4px;
   background-color: transparent;
   resize: none;
+  color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -781,7 +791,7 @@ img {
 
 .user-text-area:hover,
 .user-text-area:focus {
-  border-color: #404bbf;
+  border-color: #4d5ae5;
 }
 
 .user-text-area::placeholder {
@@ -800,6 +810,10 @@ img {
   letter-spacing: 0.04em;
   display: flex;
   align-items: center;
+}
+
+.user-privecy-span {
+  display: inline-flex;
 }
 
 .check-text span {
